@@ -1,0 +1,17 @@
+<body>
+    <section>
+        <article class="post">
+            <h2>Nutricion</h2>
+            <div class="img-container"> <!-- Block parent element -->
+                <img src="./assets/images/nutricion.jpg" width="800" height="600" />
+              </div>
+              <p>El maíz es un alimento altamente nutritivo y versátil que ofrece muchos beneficios para la salud. A continuación, se presentan algunos de los aportes nutricionales del maíz:</p>
+            <div *ngFor="let info of alimentacion" >
+            <h4>{{info.titulo_nutricion}}</h4>
+             <p>{{info.definicion_nutricion}}</p>
+            </div>
+           
+        </article>
+    </section>
+ </body>
+ 

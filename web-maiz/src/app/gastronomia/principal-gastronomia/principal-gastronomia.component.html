@@ -1,0 +1,44 @@
+<body>
+    <section>
+        <article class="post">
+            <h2>Gastronomia</h2>
+          <p>La gastronomía del maíz en Guatemala es muy diversa y rica, y refleja la importancia cultural y alimentaria que este grano tiene para la población guatemalteca. El maíz es la base de la alimentación de muchos guatemaltecos, y es utilizado en una gran variedad de platillos tradicionales.</p>
+            <div *ngFor="let info of alimentacion" >
+            <h4>{{info.titulo_platillo}}</h4>
+             <p>{{info.definicion_platillo}}</p>
+            </div>
+        </article>
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/tamal.jpg" width="400" height="400" />
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/atol.jpg"  width="400" height="400"/>
+          
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/chichito.jpg" width="400" height="400" />
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/elote-loco.jpg" width="400" height="400" />
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/pepian.jpg"  width="400" height="400"/>
+          
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/images/tortillas.jpg" width="400" height="400" />
+            </div>
+          </div>
+
+
+         
+
+
+
+    </section>
+    
+ </body>
+ 

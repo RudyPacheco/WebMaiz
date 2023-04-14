@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h2{
+    font-family: 'Source Serif Pro', serif;
+}
+
+h3{
+    font-family: 'Source Serif Pro', serif;
+}
+
+h4{
+    font-family: 'Source Serif Pro', serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size:large;
+}

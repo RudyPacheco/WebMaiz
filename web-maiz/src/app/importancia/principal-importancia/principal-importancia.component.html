@@ -1,0 +1,20 @@
+<body>
+    <section>
+        <article class="post">
+            <h2>Importancia</h2>
+            <div class="img-container"> <!-- Block parent element -->
+                <img src="./assets/images/importancia.jpg" width="800" height="600" />
+              </div>
+              
+            <p>{{definicion}}</p>
+            <p>De ahí el sentido de la semilla. Su grano es una semilla que, aunada con el alimento de la madre tierra, la luz-calor del padre sol, la humedad-vitalidad de la madre agua y el soplo-aliento del padre aire, floreció un nuevo fruto, explican desde el Consejo Nacional de Educación Maya (CNEM).</p>
+            <p>Resulta curioso que este cereal no pueda crecer de forma autónoma. Sin el cuidado del ser humano no existiría. Este factor, se cree, fue fundamental para haber unido a ambas partes formando un dúo casi indivisible a lo largo de los siglos, comenta Villar Anleu.</p>
+            <div *ngFor="let info of alimentacion" >
+            <h4>{{info.titulo_dato}}</h4>
+             <p>{{info.definicion_dato}}</p>
+            </div>
+           
+        </article>
+    </section>
+ </body>
+ 
